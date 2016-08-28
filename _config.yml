@@ -10,7 +10,7 @@ title: Music is Math
 tagline: ''
 description: 'David Hartunian\'s personalsi te and blog'
 url: http://www.musicismath.net
-baseurl: /
+baseurl: http://www.musicismath.net/
 
 author:
   name: 'David Hartunian'
