@@ -1,25 +1,27 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: redcarpet
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
-title:            Music is Math
-tagline:          ''
-description:      'David Hartunian\'s personal site and blog'
-url:              http://www.musicismath.net
-baseurl:          /
+title: Music is Math
+tagline: ''
+description: 'David Hartunian\'s personalsi te and blog'
+url: http://www.musicismath.net
+baseurl: /
 
 author:
-  name:           'David Hartunian'
-  url:            https://twitter.com/musicismath
+  name: 'David Hartunian'
+  url: https://twitter.com/musicismath
 
-paginate:         5
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
 
 # Custom vars
-version:          2.1.0
+version: 2.1.0
 
 github:
-  repo:           https://github.com/dhartunian/dhartunian.github.io
+  repo: https://github.com/dhartunian/dhartunian.github.io
