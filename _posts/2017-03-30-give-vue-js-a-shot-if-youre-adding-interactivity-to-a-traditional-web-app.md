@@ -1,9 +1,6 @@
-
-# Give Vue.js a shot if you’re adding interactivity to a traditional web-app
-
-## A few weeks ago I was working on a client project that involves a sizable redesign of their entire site. The site’s a traditional server…
-
-## Give Vue.js a shot if you’re adding interactivity to a traditional web-app
+---
+title: Give Vue.js a shot if you’re adding interactivity to a traditional web-app
+---
 
 A few weeks ago I was working on a client project that involves a sizable redesign of their entire site. The site’s a traditional server-based web application: An HTTP server serves up HTML generated from static templates filled-in with variables retrieved from a database.
 
@@ -62,8 +59,8 @@ And in Vue:
 
     new Vue({
       el: '#my-component'
-      data: { 
-        my_variable_or_method_in_vue: 2343 
+      data: {
+        my_variable_or_method_in_vue: 2343
       }
     })
 
@@ -105,11 +102,11 @@ The {{ subscription_price }} is a Vue template that renders using data or functi
 
     <div id='my-component'>
       <form>
-        <input data-amount="3999" 
-               type="radio" 
+        <input data-amount="3999"
+               type="radio"
                ref="print_individual" /> Print
-        <input data-amount="1999" 
-               type="radio" 
+        <input data-amount="1999"
+               type="radio"
                ref="digital_individual" /> Digital
         <div>Subtotal: {{ subscription_price }}</div>
         <button type="submit">Submit</button>
@@ -133,9 +130,9 @@ The {{ subscription_price }} is a Vue template that renders using data or functi
         }
       },
       mounted: function() {
-        this.prices.print_individual = 
+        this.prices.print_individual =
             parseInt(this.$refs.print_individual.dataset.amount);
-        this.prices.digital_individual = 
+        this.prices.digital_individual =
             parseInt(this.$refs.digital_individual.dataset.amount);
       }
     })
@@ -157,7 +154,7 @@ None of the functionality that Vue offers exceeds that of React or other framewo
 Give it a shot if you’re having some of the same problems! I would love to hear about your experience!
 
 ## Resources
-[**Introduction - Vue.js**
-*Vue.js - Intuitive, Fast and Composable MVVM for building interactive interfaces.*vuejs.org](https://vuejs.org/v2/guide/)
-[**Create a Basic Component using Vue.js - vue Video Tutorial #free**
-*Vue.js is a "progressive framework for building user interfaces." The core of Vue is focused on the view layer only. It…*egghead.io](https://egghead.io/lessons/vue-create-a-basic-component-using-vue-js)
+
+[Vue JS Official Introductory Guide](https://vuejs.org/v2/guide/)
+
+[Video Tutorla: Create a Basic Component using Vue.js](https://egghead.io/lessons/vue-create-a-basic-component-using-vue-js)
