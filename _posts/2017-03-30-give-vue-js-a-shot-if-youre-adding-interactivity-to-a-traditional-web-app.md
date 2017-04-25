@@ -2,6 +2,8 @@
 title: Give Vue.js a shot if you’re adding interactivity to a traditional web-app
 ---
 
+(also [posted on Medium](https://medium.com/position-development-blog/give-vue-js-a-shot-if-youre-adding-interactivity-to-a-traditional-web-app-879c8e99b51c))
+
 A few weeks ago I was working on a client project that involves a sizable redesign of their entire site. The site’s a traditional server-based web application: An HTTP server serves up HTML generated from static templates filled-in with variables retrieved from a database.
 
 The specific ticket I had picked up involved adding a simple dropdown on a magazine subscription page:
